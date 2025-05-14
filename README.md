@@ -23,7 +23,7 @@ The **F1 Performance Predictor** is an advanced machine learning system that ana
 ## 📚 Documentation
 
 For complete methodology and technical details:
-[Technical Whitepaper](docs/whitepaper.md) | [Model Architecture](diagrams/F1_ModelArchitecture_2018_2025.mermaid) | [Jupyter Notebook: Championship Prediction](https://github.com/binayakbartaula11/F1-Performance-Predictor/blob/main/notebooks/F1_driver_championship_prediction.ipynb)
+[Technical Whitepaper](docs/whitepaper.md) | [Model Architecture](diagrams/F1_ModelArchitecture_2018_2025.mermaid) | [Jupyter Notebook](https://github.com/binayakbartaula11/F1-Performance-Predictor/blob/main/notebooks/F1_driver_championship_prediction.ipynb)
 
 ## 📊 Dataset
 
