@@ -1,0 +1,33 @@
+flowchart TB
+    subgraph Data["📊 Data Processing"]
+        A["📁 Historical F1 Data<br/>2018–2024"] --> B["🧹 Data Preprocessing"]
+        B --> C["🧬 Feature Engineering"]
+        C --> D["📈 Exploratory Data Analysis"]
+    end
+
+    subgraph Model["🧪 Model Development"]
+        D --> E["📐 Multiple Linear Regression"]
+        E --> F["🎯 Model Training<br/>(80% of data)"]
+        F --> G["🔍 Model Validation<br/>(20% of data)"]
+        G --> H["📊 Performance Evaluation<br/>R² = 0.90"]
+    end
+
+    subgraph Prediction["🔮 2025 Prediction"]
+        H --> I["📂 2024 Data as Baseline"]
+        I --> J["📈 Experience Increment"]
+        J --> K["👶 New Driver Data"]
+        K --> L["🧮 Generate 2025 Predictions"]
+    end
+
+    subgraph Results["🏁 Championship Projection"]
+        L --> M["🏆 Max Verstappen:<br/>405 points"]
+        L --> N["🥈 Lando Norris:<br/>313 points"]
+        L --> O["🥉 Charles Leclerc:<br/>300 points"]
+        M & N & O --> P["📃 Complete Championship<br/>Standings"]
+    end
+
+    %% Section Styles
+    style Data fill:#e1f5fe,stroke:#01579b,color:#000
+    style Model fill:#e8f5e9,stroke:#1b5e20,color:#000
+    style Prediction fill:#fff8e1,stroke:#ff6f00,color:#000
+    style Results fill:#fce4ec,stroke:#880e4f,color:#000
