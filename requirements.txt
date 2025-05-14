@@ -1,0 +1,17 @@
+# Data analysis and manipulation
+pandas==2.2.1
+numpy==1.26.4
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.12.2
+
+# Machine Learning
+scikit-learn==1.4.2
+
+# Optional: For Jupyter Notebooks (if notebooks are included)
+notebook==7.1.2
+ipykernel==6.29.3
+
+# Suppress warnings cleanly (optional for scripts)
+warnings
